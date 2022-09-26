@@ -1,0 +1,31 @@
+.address__item {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-size: var(--font-size1);
+    color: var(--color4);
+  
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+  
+.address__link--footer {
+    color: var(--color4);
+    text-decoration: none;
+    transition: color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+    color: var(--color1);
+    }
+}
+  
+.address__link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition: color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+    color: var(--color1);
+    }
+}

@@ -1,0 +1,32 @@
+.header__contacts {
+    display: flex;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 50px;
+}
+  
+.contacts__link {
+    display: inline-flex;
+    align-items: center;
+  
+    font-weight: var(--font-weight1);
+    font-size: var(--font-size1);
+    color: var(--color2);
+    fill: var(--color2);
+    transition: fill 250ms var(--cubic-bezier), color 250ms var(--cubic-bezier);
+    
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    
+    &:hover,
+    &:focus {
+      color: var(--color1);
+      fill: var(--color1);
+    }
+}
+
+.telephone__icon,
+.mail__icon {
+margin-right: 10px;
+}

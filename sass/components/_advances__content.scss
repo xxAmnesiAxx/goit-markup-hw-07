@@ -1,0 +1,27 @@
+.advances__title {
+    margin-bottom: 10px;
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size1);
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--color3);
+    text-transform: uppercase;
+}
+  
+.advances__text {
+    font-size: var(--font-size1);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color2);
+  
+}
+
+.advances-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    min-height: 120px;
+    background: var(--color7);
+    border-radius: 4px;
+}

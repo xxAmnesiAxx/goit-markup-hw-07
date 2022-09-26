@@ -1,0 +1,17 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--color6);
+}
+  
+.conteiner__footer {
+    display: flex;
+    align-items: baseline;
+}
+.container-address {
+    flex-grow: 1;
+}
+  
+.container-icon {
+    margin-left: 70px;
+}

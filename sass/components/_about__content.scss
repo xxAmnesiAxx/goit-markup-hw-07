@@ -1,0 +1,18 @@
+.about-content {
+  display: flex;
+  gap: 30px;
+}
+
+.about__text {
+  font-weight: var(--font-weight2);
+  font-size: var(--font-size1);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color4);
+}
+  
+.about__img {
+  position: relative;
+}
+  

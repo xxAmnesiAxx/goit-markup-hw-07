@@ -1,0 +1,18 @@
+.logo {
+    font-family: 'Raleway';
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size3);
+    color: var(--color1);
+   
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+  
+.logo__dark {
+    color: #000000;
+}
+  
+.logo__light {
+    color: var(--color4);
+}

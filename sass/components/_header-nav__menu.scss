@@ -1,0 +1,49 @@
+.header-nav__menu {
+  margin-left: 93px;
+}
+  
+.site-nav {
+  display: flex;
+  gap: 50px;
+}
+  
+.site-nav__link {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: var(--font-weight1);
+  font-size: var(--font-size1);
+  color: var(--color3);
+  
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: color 250ms var(--cubic-bezier);
+  
+  &:focus,
+  &:hover {
+    color: var(--color1);
+    transition: color 250ms var(--cubic-bezier);
+  }
+
+}
+  
+.site-nav__link--active {
+  color: var(--color1);
+
+  &::after {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 4px;
+  
+    background-color: var(--color1);
+    border-radius: 2px;
+    content: "";
+  }
+}
+  
+
+  
